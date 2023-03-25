@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import RulesHooks from './component/rulesHooks';
+//import RulesHooks from './component/rulesHooks';
+import UseStateArray from './component/UseStateArray';
 
 const App = () => {
 
@@ -38,7 +39,8 @@ const App = () => {
       {/* JSx{  <h1>{5+5}</h1> } */}
       {/* <h1>{myName}</h1>
       <button className="btn" onClick={changeName} >click me </button> */}
-      <RulesHooks />
+      {/* <RulesHooks /> */}
+      < UseStateArray />
     </div>
 
   )
