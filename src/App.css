@@ -36,9 +36,9 @@ h1{
   color: rgb(66, 114, 114);
 }
 .h1style {
-  background-color: rgb(242, 249, 251);
+  background-color: rgb(212, 237, 244);
   border-radius: 30px;
-  width: 400px;
+  width: 500px;
   height: 50px;
   padding-top: 15px ;
   padding-bottom: 2px;
@@ -56,10 +56,17 @@ btn{
   outline:none;
   padding: 0.5rem 1.5rem;
   background-color:#2980b9;
-  color:aliceblue;
+  color:rgb(236, 241, 246);
   cursor: pointer;
   border-radius:0.3 rem;
 }
 btn:hover{
   background-color: #136ca7;
+}
+.btnInner{
+  color: rgb(232, 226, 226);
+  background-color: red;
+  border-radius:15%;
+  margin-left: 9px;
+
 }
